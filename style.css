@@ -17,6 +17,10 @@ li {
     list-style: none;
 }
 
+.paddingSection {
+    padding: 40px 0px;
+}
+
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -30,6 +34,10 @@ li {
 
 .spaceBetween {
     justify-content: space-between;
+}
+
+.spaceEvenly {
+    justify-content: space-evenly;
 }
 
 .centerHorizon {
@@ -95,7 +103,13 @@ h3 {
     width: 100%;
 }
 
+.width50 {
+    width: 50%;
+}
 
+.paddingB40 {
+    padding-bottom: 40px;
+}
 
 
 /* HEADER*/
@@ -149,9 +163,6 @@ h1 {
 
 /* Section Produits */
 
-.produits {
-    height: 643px;
-}
 
 .width250px {
     width: 267px;
@@ -172,3 +183,17 @@ h1 {
 
 
 /* Section Nos clients */
+
+
+
+.width279 {
+    width: 279px;
+}
+
+.paddingT20 {
+    padding-top: 20px;
+}
+
+
+/* Section Nous trouver */
+
