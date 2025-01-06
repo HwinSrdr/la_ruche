@@ -7,7 +7,9 @@
     padding: 0;
     font-family:"Inter", sans-serif;
 }
-
+.overflowNone {
+    overflow-x:hidden;
+}
 a {
     text-decoration: none;
     color: black;
@@ -43,6 +45,7 @@ li {
 .centerHorizon {
     justify-content: center;
 }
+
 
 
 .alignCenter {
@@ -161,6 +164,7 @@ h1 {
 
 
 
+
 /* Section Engagement */
 
 
@@ -234,3 +238,15 @@ h1 {
     font-weight: 500;
 }
 
+@media all and (max-width : 500px){
+    .hideToSmall {
+        display: none;
+    }
+    .center {
+        justify-content: center;
+    }
+    .small100 {
+        width: 100%;
+    }
+    
+}
